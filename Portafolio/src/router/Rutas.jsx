@@ -17,7 +17,7 @@ export const Rutas = () => {
       {/* Contenido de las rutas */}
       <section className='content'>
         <Routes>
-          <Route path="/" element={<Inicio />} />
+          <Route path="/inicio" element={<Inicio />} />
           <Route path="/portafolio" element={<Portafolio />} />
           <Route path="/curriculum" element={<Curriculum />} />
           <Route path="/contacto" element={<Contacto />} />
