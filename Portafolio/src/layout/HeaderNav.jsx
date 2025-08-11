@@ -8,14 +8,15 @@ export const HeaderNav = () => {
             <Container>
                 {/* Logo redondeado */}
                 <Navbar.Brand as={NavLink} to="/inicio" className="d-flex align-items-center">
-                    <Image
-                        src="/images/logo.png"
-                        roundedCircle
-                        width={70}
-                        height={70}
-                        className="me-2"
-                        alt="Logo"
-                    />
+            <Image
+  src={`${import.meta.env.BASE_URL}images/logo.png`}
+  roundedCircle
+  width={70}
+  height={70}
+  className="me-2"
+  alt="Logo"
+/>
+
                     <span className="fw-light">Desarrollador Web</span>
                 </Navbar.Brand>
 
